@@ -23,4 +23,4 @@ jobs:
         username: ${{ secrets.DOCKERHUB_USERNAME }}
         password: ${{ secrets.DOCKERHUB_TOKEN }}
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag graalvm-docker-maven:$(date +%s)
+      run: docker build . --file Dockerfile --tag jylups/graalvm-docker-maven
