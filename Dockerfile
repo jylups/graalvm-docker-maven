@@ -1,4 +1,4 @@
-FROM ghcr.io/graalvm/graalvm-community:20.0.1-ol9 
+FROM ghcr.io/graalvm/graalvm-community:22 
 # Install tar and gzip to extract the Maven binaries
 ARG USER_HOME_DIR="/root"
 #ARG MAVEN_DOWNLOAD_URL=https://nexus.conseqta.io/repository/conseqta-cache/apache-maven/apache-maven-3.9.4-bin.tar.gz
